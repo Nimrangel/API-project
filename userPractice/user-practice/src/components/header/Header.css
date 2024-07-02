@@ -1,0 +1,12 @@
+.headerWrapper{
+    background-color: #B9B7BD;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: larger;
+    font-weight: bolder;
+}

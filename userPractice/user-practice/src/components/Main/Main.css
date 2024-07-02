@@ -1,0 +1,51 @@
+.cardWrapper{
+    width: 30rem;
+    height: 40rem;
+    text-align: center;
+
+}
+
+.cardMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding: 1rem;
+    background: radial-gradient(#E8B4B8 5%, #A49393);
+}
+
+.cardMain img{
+    border-radius: 50%;
+
+}
+
+.cardHeader{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.cardMiddle{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+
+.cardBottom{
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.newBtn{
+    margin-top: 1rem;
+    border-radius: 5px;
+    background-color: #E8B4B8;
+    color: white;
+    height: 5%;
+    width: 30%;
+}
